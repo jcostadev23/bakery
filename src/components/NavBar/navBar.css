@@ -1,0 +1,31 @@
+.topnav {
+  display: flex;
+  width: 90%;
+  margin: 40px auto;
+  border-radius: 30px;
+  border: 1px solid whitesmoke;
+  backdrop-filter: blur(10px); /* Desfoca o fundo */
+  background: rgba(255, 255, 255, 0); /* Fundo translúcido */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  position: relative;
+}
+
+.links-container {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.topnav-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 15px 20px;
+}
+
+.topnav img {
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: -20px;
+}
